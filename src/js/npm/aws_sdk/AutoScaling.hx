@@ -15,6 +15,8 @@ typedef TerminateInstanceParams = {
 
 typedef AutoScalingGroupInstance = {
   var InstanceId :String;
+  var LifecycleState :String;
+  var HealthStatus :String;
 }
 
 typedef AutoScalingGroup = {
